@@ -31,7 +31,7 @@ int fn=lol.nextInt();
 //		System.out.println("Answer = "+tn);
 //	}
 //	else if (on == 2){ 
-//		int tn=fn*sn;
+//		long tn=(long)fn*sn;
 //		System.out.println("Answer = "+tn);		
 //	}
 //	else if (on == 3){ 
