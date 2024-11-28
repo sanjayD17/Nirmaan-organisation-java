@@ -22,14 +22,20 @@ public class Loop {
 //		for(int god=0;god<=10;god++) {
 //		System.out.println(god);
 //		}
-		Scanner lol = new Scanner(System.in);
-		System.out.println("Enter the tables");
-		int tables=lol.nextInt();
-		for(int god=1;god<=10;god++) {
-		System.out.println(tables+"x"+god+"="+god*tables);
-}	
+// 		Scanner lol = new Scanner(System.in);
+// 		System.out.println("Enter the tables");
+// 		int tables=lol.nextInt();
+// 		for(int god=1;god<=10;god++) {
+// 		System.out.println(tables+"x"+god+"="+god*tables);
+// }	
 		
 		
+		for (int op=1;op<=10;op++) {
+			for (int po=1;po<=5;po++) {
+				System.out.println(po);
+			}
+			System.out.println( "one piece");
+		}
 	}
 	
 }
