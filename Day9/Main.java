@@ -38,7 +38,7 @@ public class Main {
 				System.out.println("Enter the second no :");
 
 				int sn=lol.nextInt();
-			int tn=fn-sn;
+			
 			System.out.println("subtraction :"+sc.sub(fn,sn));
 			break;
 		}
@@ -48,7 +48,7 @@ public class Main {
 				System.out.println("Enter the second no :");
 
 				int sn=lol.nextInt();
-			int tn=fn*sn;
+			
 			System.out.println("multiplicaton :"+sc.mul(fn,sn));
 			break;
 		}
@@ -58,7 +58,7 @@ public class Main {
 				System.out.println("Enter the second no :");
 
 				int sn=lol.nextInt();
-			int tn=fn/sn;
+			
 			System.out.println("divisin :"+sc.div(fn,sn));
 			break;
 		}
@@ -68,7 +68,7 @@ public class Main {
 				System.out.println("Enter the second no :");
 
 				int sn=lol.nextInt();
-			int tn=fn%sn;
+			
 			System.out.println("modulus :"+sc.mod(fn,sn));
 			break;
 		}
